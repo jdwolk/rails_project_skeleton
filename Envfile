@@ -3,3 +3,11 @@ enable_defaults! do
 end
 
 variable :SECRET_KEY_BASE, :string, default: ''
+variable :MAILER_HOST, :string, default: 'localhost:3000'
+variable :AIRBRAKE_API_KEY, :string
+variable :AIRBRAKE_HOST, :string
+variable :PUMA_WORKERS, :integer, default: 1
+variable :PUMA_MIN_THREADS, :integer, default: 1
+variable :PUMA_MAX_THREADS, :integer, default: 1
+variable :PORT, :integer, default: 3000
+

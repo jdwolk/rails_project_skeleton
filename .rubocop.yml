@@ -1,0 +1,22 @@
+Encoding:
+  Enabled: false
+
+Documentation:
+  Enabled: false
+
+ClassAndModuleChildren:
+  Enabled: false
+
+Style/FileName:
+  Enabled: false
+
+AllCops:
+  RunRailsCops: true
+
+  Include:
+    - 'Gemfile'
+  Exclude:
+    - 'Rakefile'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'bin/*'

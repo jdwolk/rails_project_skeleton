@@ -1,0 +1,5 @@
+enable_defaults! do
+  %w(development test).include? Rails.env
+end
+
+variable :SECRET_KEY_BASE, :string, default: ''
